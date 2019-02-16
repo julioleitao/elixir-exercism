@@ -14,7 +14,6 @@ defmodule Strain do
     apply_at(enumerable, fun, fun.(head), &keep/2)
   end
 
-
   @doc """
   Given a `list` of items and a function `fun`, return the list of items where
   `fun` returns false.
