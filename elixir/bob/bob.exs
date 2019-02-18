@@ -23,7 +23,7 @@ defmodule Bob do
     end
   end
 
-  defp silence?(input), do: String.strip(input) === ""
+  def silence?(input), do: String.strip(input) === ""
 
   def shouting_question?(input), do: shouting?(input) and question?(input)
 
