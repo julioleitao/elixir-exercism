@@ -9,8 +9,8 @@ const mem = {
 'violet': 7,
 'grey': 8,
 'white': 9
-}
+};
 
-export const colorCode = colorName => mem[colorName]
+export const colorCode = colorName => mem[colorName];
 
-export const COLORS = Object.keys(mem)
+export const COLORS = Object.keys(mem);
